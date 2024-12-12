@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gratitude App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gratitude Journal</h1>
+        <form id="gratitude-form">
+            <textarea id="gratitude-entry" placeholder="What are you grateful for today?" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="gratitude-list">
+            <h2>Your Grateful Moments</h2>
+            <ul></ul>
+        </div>
+        <div id="summary">
+            <h2>Your Emotional Journey</h2>
+            <p id="positive-count">Total Positive Entries: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
